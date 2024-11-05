@@ -54,9 +54,9 @@ project-root/
 ### config/: Folder untuk konfigurasi aplikasi global, termasuk autoload untuk konfigurasi umum dan lokal, serta module.config.php untuk konfigurasi modul.
 ### data/: Folder untuk data runtime seperti cache dan log, digunakan untuk menyimpan data sementara atau log dari aplikasi.
 ### module/: Berisi modul-modul utama aplikasi, masing-masing dengan struktur sendiri:
-    ### config/: Konfigurasi khusus untuk modul, biasanya berupa module.config.php.
-    - src/: Kode sumber seperti Controller, Model, dan Service.
-    - view/: File view (template) untuk modul.
+- config/: Konfigurasi khusus untuk modul, biasanya berupa module.config.php.
+- src/: Kode sumber seperti Controller, Model, dan Service.
+- view/: File view (template) untuk modul.
 ### public/: Folder publik untuk file yang dapat diakses dari luar, seperti index.php (entry point aplikasi) dan .htaccess.
 ### vendor/: Folder yang dibuat oleh Composer, berisi dependency yang diinstal.
 ### composer.json: File konfigurasi Composer yang berisi daftar dependency proyek.
