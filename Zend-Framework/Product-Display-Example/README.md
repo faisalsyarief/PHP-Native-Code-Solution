@@ -1,16 +1,17 @@
 # Zend Framework Project Structure
+- Ini adalah gambaran struktur folder dasar untuk aplikasi yang dibangun menggunakan Zend Framework. Struktur ini mencakup komponen seperti konfigurasi, modul, folder publik, dan file lainnya yang diperlukan untuk aplikasi Zend Framework. (ID)
 
-Ini adalah gambaran struktur folder dasar untuk aplikasi yang dibangun menggunakan Zend Framework. Struktur ini mencakup komponen seperti konfigurasi, modul, folder publik, dan file lainnya yang diperlukan untuk aplikasi Zend Framework.
+- This is an overview of the basic folder structure for an application built using the Zend Framework. The structure includes components such as configuration, modules, public folder, and other files necessary for a Zend Framework application. (EN)
 
-## Struktur Folder
 
+## Struktur Folder | Folder Structure
 ```
 project-root/
 ├── config/
 │   ├── autoload/
-│   │   ├── global.php             # Konfigurasi umum aplikasi
-│   │   └── local.php              # Konfigurasi khusus lingkungan (mis. database)
-│   └── module.config.php          # Konfigurasi utama untuk modules
+│   │   ├── global.php             # Konfigurasi umum aplikasi (ID) | General Application Configuration (EN)
+│   │   └── local.php              # Konfigurasi khusus lingkungan (mis. database) (ID) | Environment-Specific Configuration (e.g., Database) (EN)
+│   └── module.config.php          # Konfigurasi utama untuk modules (ID) | Main Configuration for Modules (EN)
 ├── data/
 │   ├── cache/                     # Cache aplikasi
 │   └── logs/                      # File log aplikasi
@@ -48,13 +49,14 @@ project-root/
 └── README.md                      # File README proyek
 ```
 
+
 ## Penjelasan Folder Utama
 ### config/: Folder untuk konfigurasi aplikasi global, termasuk autoload untuk konfigurasi umum dan lokal, serta module.config.php untuk konfigurasi modul.
 ### data/: Folder untuk data runtime seperti cache dan log, digunakan untuk menyimpan data sementara atau log dari aplikasi.
 ### module/: Berisi modul-modul utama aplikasi, masing-masing dengan struktur sendiri:
-- config/: Konfigurasi khusus untuk modul, biasanya berupa module.config.php.
-- src/: Kode sumber seperti Controller, Model, dan Service.
-- view/: File view (template) untuk modul.
+    - config/: Konfigurasi khusus untuk modul, biasanya berupa module.config.php.
+    - src/: Kode sumber seperti Controller, Model, dan Service.
+    - view/: File view (template) untuk modul.
 ### public/: Folder publik untuk file yang dapat diakses dari luar, seperti index.php (entry point aplikasi) dan .htaccess.
 ### vendor/: Folder yang dibuat oleh Composer, berisi dependency yang diinstal.
 ### composer.json: File konfigurasi Composer yang berisi daftar dependency proyek.
