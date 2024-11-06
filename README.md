@@ -1,6 +1,4 @@
-# PHP-Solutions
-## ID
-Repository ini merupakan solusi untuk task yang pernah Saya alami dalam menyelesaikan masalah di berbagai bahasa pemrograman.
+# PHP Native Code Solution
+`ID:` Repository ini berisi solusi untuk berbagai task dan tantangan yang pernah saya hadapi. Diharapkan, solusi-solusi ini dapat membantu Anda dalam mengatasi masalah serupa, baik dalam pemrograman PHP native maupun proyek yang sedang Anda kerjakan.
 
-## EN
-This repository provides solutions for tasks I have encountered while solving problems in various programming languages.
+`EN:` This repository contains solutions for various tasks and challenges I've encountered. I hope these solutions can assist you in overcoming similar issues, whether in native PHP programming or other projects you're working on.
